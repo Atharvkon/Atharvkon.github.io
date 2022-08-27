@@ -1,0 +1,88 @@
+html {
+    background-color: rgb(150 163 218);
+  background-image: url(backbg.jpg);
+  height: 100%;
+
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: chartreuse; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+   
+
+}
+
+a:hover{
+    text-decoration: none;
+    color:rgb(20, 16, 39);
+    border: 1px solid white;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+}
+
+.container {}
+
+li {
+    list-style: none;
+    margin: 11px 19px;
+    padding: 2px;
+}
+
+header nav {
+    background-color: rgb(20, 16, 39);
+    height: 4vw;
+}
+
+.form{
+    position: relative;
+    top: 45px;
+left: 98px;
+display: inline-block;
+}
+
+.formitem{
+    margin: 8px;
+    color: white;
+  
+}
+
+#submit{
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 31px ;
+    color: white;
+    background-color: rgb(34, 34, 113);
+   
+}
+
+#submit:hover{
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 31px ;
+    color: rgb(34, 34, 113);
+    background-color: #c7d6d2;
+    cursor: pointer;
+}
+
+h3{
+    text-shadow: 2.4px 2.1px black;
+}
